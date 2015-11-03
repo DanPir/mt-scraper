@@ -12,3 +12,5 @@
 */
 
 Route::get('/', ['uses' => 'ScraperController@index', 'as' => 'scraper.index']);
+Route::post('/scraper',  ['uses' => 'ScraperController@execute', 'as' => 'scraper.execute']);
+

@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost',
+    'url' => 'http://mt-scraper.com',
 
     /*
     |--------------------------------------------------------------------------
@@ -144,6 +144,11 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+    		
+        /*
+         * Other Service Providers...
+         */
+    	App\Providers\ScrapeServiceProvider::class,
 
     ],
 
